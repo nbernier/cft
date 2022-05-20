@@ -8,6 +8,6 @@ echo("Current Directory is " . $cur_dir);
 var_dump(getenv());
 
 echo "var_dump(getenv())"
-echo "$_ENV"
+
   
 ?>
