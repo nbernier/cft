@@ -5,7 +5,8 @@ $cur_dir = getcwd();
   
 echo("Current Directory is " . $cur_dir);
 $files1 = scandir("/app");
-
+$files1 = scandir("/app/posts");
+echo("<br/>");
 print_r($files1);
 
 echo getenv('SHELL');
